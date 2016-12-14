@@ -76,3 +76,25 @@ header{
 	width: 100%;
 	margin-bottom: 10%;
 }
+
+/*WHAT*/
+.what{
+	width: 95%;
+	margin: 0 auto;
+}
+
+.what-contentCols{
+	display: flex;
+}
+
+
+
+ .what-contentCols-col{
+	 margin: 0 25px;
+ }
+
+ .what-tittle{
+	 font-size: 2.2em;
+	text-align: center;
+ }
+
