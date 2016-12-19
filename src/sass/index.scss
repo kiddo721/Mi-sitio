@@ -1,0 +1,90 @@
+body, hmtl {
+	background: peru;
+	font-size: 16px;
+}
+
+/*Utilidades*/
+
+.u-dash{
+	color: white;
+	text-align: center;
+}
+
+/*Header*/
+
+
+.header{
+	background: white;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid grey;
+	align-items: center;
+	height: 50px;
+
+}
+
+
+/*Banner*/
+
+.banner{
+	background-image:url("https://ununsplash.imgix.net/photo-1427434846691-47fc561d1179?fit=crop&fm=jpg&h=700&q=75&w=1050") !important;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #ffffff;
+
+	&-title{
+		font-size:4em;
+	}
+	&-subtitle{
+		font-size: 2em;
+		text-align: center;
+	}
+
+}
+
+/*about*/
+
+.about{
+	width: 78%;
+	margin: 0 auto;
+	&-title{
+		font-size:2.2em;
+		text-align: center;
+	}
+	&-text{
+		text-align: center;
+	}
+	&-contentCols{
+		display: flex;
+		justify-content: space-around;
+		&-col{
+			width: 30%;
+			img{
+				width: 100%;
+				margin-bottom: 10%;
+			}
+		}
+	}
+}
+
+/*WHAT*/
+.what{
+	width: 95%;
+	margin: 0 auto;
+	&-contentCols{
+		display: flex;
+		&-col{
+	 		margin: 0 25px;
+		}
+	}
+	&-title{
+		font-size: 2.2em;
+		text-align: center;
+	}
+}
